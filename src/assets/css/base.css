@@ -1,0 +1,27 @@
+/* 初始化文件 */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+    /* font-family: SimSun; */
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+input,
+button {
+    border: 0;
+    outline: none;
+}

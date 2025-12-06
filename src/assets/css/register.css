@@ -1,0 +1,137 @@
+header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+
+header img {
+    padding-top: 16px;
+}
+
+.content {
+    height: 520px;
+    border: 1px solid #dfdfdf;
+    margin: 20px 0 25px 0;
+}
+
+.content .hd {
+    height: 40px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.hd h3 {
+    float: left;
+    line-height: 40px;
+    margin-left: 10px;
+    color: #333333;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.hd p {
+    float: right;
+    font-size: 14px;
+    line-height: 40px;
+    margin-right: 10px;
+    color: #333333;
+}
+
+.hd p a {
+    color: #c81623;
+
+}
+
+.age_form {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* background-color: pink; */
+}
+
+.age_form ul li {
+    /* height: 36px; */
+    /* line-height: 36px; */
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.age_form ul li label {
+    display: inline-block;
+    width: 100px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.age_form ul li .inp {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #ccc;
+}
+
+.age_form ul li span {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #c81623;
+}
+
+.age_form ul li i {
+    width: 20px;
+    height: 20px;
+}
+
+.age_form ul li em {
+    width: 34px;
+    height: 13px;
+    font-size: 12px;
+    padding: 0 10px;
+    margin: 0 2px;
+    color: #ececec;
+
+}
+
+.safety {
+    padding-left: 170px;
+}
+
+.safety .ruo {
+    background-color: #de1111;
+}
+
+.safety .zhong {
+    background-color: #40b83f;
+}
+
+.safety .qiang {
+    background-color: #f79100;
+}
+
+.tongyi {
+    padding: 20px 0 20px 100px;
+}
+
+.tongyi input {
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    color: #ececec;
+    margin-left: 120px;
+}
+
+.mod_copyright {
+    height: 120px;
+    color: #666666;
+    font-size: 12px;
+    text-align: center;
+}
+
+.mod_copyright .links {
+    margin-bottom: 10px;
+}
+
+.mod_copyright .links a {
+    margin: 0 7px;
+}

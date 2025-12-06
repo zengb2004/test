@@ -1,0 +1,358 @@
+main {
+    width: 980px;
+    height: 455px;
+}
+
+main .jiao {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.newsflash {
+    overflow: hidden;
+    position: relative;
+    width: 721px;
+    margin-right: 10px;
+}
+
+.newsflash ul {
+    position: absolute;
+    width: 600%;
+
+    display: flex;
+}
+
+.newsflash li {
+    width: 721px;
+    height: 455px;
+}
+
+.newsflash .left,
+.newsflash .right {
+    display: none;
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+
+    background: rgba(58, 57, 57, 0.5);
+    color: #e4e4e4;
+    text-align: center;
+    line-height: 30px;
+}
+
+.newsflash .left {
+    left: 0;
+    border-radius: 0 25px 25px 0;
+}
+
+.newsflash .right {
+    right: 0;
+    border-radius: 25px 0 0 25px;
+}
+
+.newsflash .left:hover,
+.newsflash .right:hover {
+    color: #df3033;
+}
+
+.newsflash ol {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.newsflash ol li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border: 2px solid rgba(240, 237, 237, 0.5);
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.circle {
+    background-color: #e4e4e4;
+}
+
+
+.lifeservice {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.lifeservice .shang {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+    border-bottom: none;
+}
+
+.lifeservice .shang .hd {
+    overflow: hidden;
+    border-bottom: 1px dashed #e4e4e4;
+    padding: 10px;
+}
+
+.lifeservice .shang .hd h5 {
+    float: left;
+    color: #666666;
+
+}
+
+.lifeservice .shang .hd p {
+    float: right;
+    font-size: 12px;
+    color: #666666;
+}
+
+.lifeservice .shang .bd {
+    padding: 10px 0 0 10px;
+}
+
+.lifeservice .shang .bd p {
+    color: #666666;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.lifeservice .zhong {
+    height: 210px;
+    margin-bottom: 6px;
+}
+
+.lifeservice .zhong table {
+    border-collapse: collapse;
+}
+
+.lifeservice .zhong td {
+    width: 62.5px;
+    height: 70px;
+    border: 1px solid #e4e4e4;
+    background-image: url(/images/icons.png);
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.t1 {
+    background-position: 0 0;
+}
+
+.t2 {
+    background-position: -62px 0;
+}
+
+.t3 {
+    background-position: -124px 0;
+}
+
+.lifeservice .zhong td p {
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.bgce {
+    color: #ffffff;
+    background-color: #df3033;
+
+}
+
+main .guding {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 25%;
+    margin-left: -666px;
+    /* display: none; */
+}
+
+main .guding li {
+    width: 66px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #666666;
+}
+
+.recom {
+    display: flex;
+    justify-content: flex-start;
+    height: 163px;
+    margin-top: 10px;
+}
+
+.recom .hd {
+    float: left;
+    width: 206px;
+    height: 163px;
+}
+
+.recom .bd {
+    float: left;
+    width: 994px;
+    height: 163px;
+}
+
+.recom .bd ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.recom .bd img {
+    display: block;
+    width: 248.5px;
+    height: 163px;
+}
+
+.like {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+    width: 1202px;
+    height: 280px;
+    margin-top: 26px;
+}
+
+.like .like1 {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    line-height: 30px;
+}
+
+.like .like1 h6 {
+    color: #666666;
+}
+
+.like .like2 {
+    height: 233px;
+    border: 1px solid #e4e4e4;
+}
+
+.like .like2 ul {
+    display: flex;
+}
+
+.like .like2 ul li {
+    width: 200px;
+    height: 233px;
+    padding-left: 36px;
+}
+
+
+.like .like2 ul li p {
+    width: 130px;
+    height: 33px;
+    font-size: 12px;
+}
+
+.like .like2 ul li h3 {
+    color: #df3033;
+}
+
+.like .like2 ul li .photo {
+    width: 160px;
+    height: 140px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.like .like2 ul li .photo1 {
+    padding-top: 40px;
+}
+
+.floor {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #df3033;
+}
+
+.box_hd h3 {
+    float: left;
+    color: #df3033;
+}
+
+.box_hd .tab_list {
+    float: right;
+}
+
+.box_hd .tab_list ul li {
+    float: left;
+    /* margin: 0 10px; */
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.box_hd .tab_list ul li:not(:last-child)::after {
+    content: "|";
+    margin: 0 5px;
+    color: #666;
+}
+
+.tab_list ul li a {
+    margin: 0 10px;
+}
+
+.tab_list ul li a:hover {
+    color: #df3033;
+}
+
+.box_bd {
+    height: 358px;
+}
+
+.tab_list_item1 ul {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.tab_list_item1 ul .col1 {
+    width: 210px;
+    height: 360px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col1 ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.col1 ul li {
+    width: 84px;
+    height: 33px;
+    border-bottom: 1px solid #666666;
+    line-height: 33px;
+}
+
+.col1 ul li a {
+    font-size: 12px;
+}
+
+.tab_list_item1 ul .col2 {
+    width: 329px;
+}
+
+.tab_list_item1 ul .col3 {
+    width: 221px;
+}
+
+.tab_list_item1 ul .col4 {
+    width: 221px;
+}
+
+.tab_list_item1 ul .col5 {
+    width: 219px;
+}
+
+.box_fr {
+    margin: 20px 0 30px 0;
+}
