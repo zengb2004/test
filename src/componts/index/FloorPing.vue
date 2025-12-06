@@ -22,7 +22,7 @@
                                             <a href="javascript:;">{{ item }}</a>
                                         </li>
                                     </ul>
-                                    <img :src="'/images/' + tabListItem1[0]" alt="" />
+                                    <img :src="tabListItem1[0]" alt="" />
                                 </a>
                             </li>
                             <li>

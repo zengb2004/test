@@ -10,7 +10,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist -r https://github.com/zengb2004/test.git"
+    "deploy": "gh-pages -d dist -r https://github.com/zengb2004/test.git",
+    "update": "npm run build && npm run deploy" 
   },
   "dependencies": {
     "pinia": "^3.0.4",
