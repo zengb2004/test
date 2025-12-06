@@ -54,11 +54,11 @@ import { initCarousel } from '@/assets/js/slideshow.js'
 import '@/assets/js/side.js'
 import { onMounted } from 'vue'
 let imgs = [
-    "/images/图层179.png",
-    "/images/focus1.jpg",
-    "/images/focus2.jpg",
-    "/images/focus3.jpg",
-    "/images/图层178.png"
+    "./images/图层179.png",
+    "./images/focus1.jpg",
+    "./images/focus2.jpg",
+    "./images/focus3.jpg",
+    "./images/图层178.png"
 ]
 let slideshow = computed(() => imgs.slice(0, imgs.length - 1))
 let bd = [

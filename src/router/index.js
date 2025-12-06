@@ -1,9 +1,9 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 import Index from "@/views/Index.vue"
 import ShoppingCart from "@/views/ShoppingCart.vue";
 import Registration from "@/views/Registration.vue";
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes: [
         { path: '/', component: Index },
         { path: '/shoppingCart', component: ShoppingCart },

@@ -73,21 +73,21 @@ let cartWarp = [
 ];
 let imgs = [
     {
-        img: '/images/p1.jpg',
+        img: './images/p1.jpg',
         word: '【5本26.8元】经典儿童文学彩图青少版八十天环游地球中学生语文教学大纲',
         price: '￥12.60',
         sum: '￥12.60',
         delete: '删除'
     },
     {
-        img: '/images/p2.jpg',
+        img: './images/p2.jpg',
         word: '【2000张贴纸】贴纸书 3-6岁 贴画儿童 贴画书全套12册 贴画 贴纸儿童气',
         price: '￥24.80',
         sum: '￥24.80',
         delete: '删除'
     },
     {
-        img: '/images/p3.jpg',
+        img: './images/p3.jpg',
         word: '唐诗三百首+成语故事全2册 一年级课外书 精装注音儿童版 小学生二三年级课外阅读书籍',
         price: '￥29.80',
         sum: '￥29.80',
