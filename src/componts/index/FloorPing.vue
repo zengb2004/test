@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div class="box_fr">
-                <img :src="'./images/' + tabListItem1[tabListItem1.length - 1]" alt="" />
+                <img :src="tabListItem1[tabListItem1.length - 1]" alt="" />
             </div>
         </div>
     </div>
